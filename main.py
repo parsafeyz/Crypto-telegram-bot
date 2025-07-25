@@ -3,7 +3,7 @@ import telebot
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 url = "https://api.binance.com/api/v3/ticker/price?symbol={name}"
-TOKEN = "5928665075:AAGtnB_AleinWuRVjK3A2jtKHswKs8LbSdA"
+TOKEN = "YOUR TOKEN"
 bot = telebot.TeleBot(TOKEN)
 msg = ""
 temp = "temp"
